@@ -14,7 +14,7 @@ const API_KEY = '?key=1337'
 export function fetchPosts(){
   const request = axios.get(`${ROOT_URL}/posts`);
 
-  //Redux Thunk
+  //todo : Redux Thunk
   /*return (dispatch) => {
     request.then( ({data}) =>{
       dispatch({
